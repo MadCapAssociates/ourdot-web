@@ -1,0 +1,16 @@
+# After each publish, tell Bing and other IndexNow search engines which pages exist (Google doesn't use IndexNow).
+name: Ping IndexNow
+on:
+  push:
+    branches: [main]
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Send the sitemap URLs
+        run: |
+          sleep 60  # give GitHub Pages a minute to publish
+          urls=$(grep -o '<loc>[^<]*' sitemap.xml | sed 's/<loc>//' | jq -R . | jq -s .)
+          jq -n --argjson u "$urls" '{host:"ourdot.app",key:"906a471118c33d8bccf7efcd4aaaff37",keyLocation:"https://ourdot.app/906a471118c33d8bccf7efcd4aaaff37.txt",urlList:$u}' > body.json
+          curl -sS -o /dev/null -w "IndexNow answered %{http_code}\n" -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' --data @body.json

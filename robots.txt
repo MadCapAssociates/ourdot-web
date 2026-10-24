@@ -1,0 +1,24 @@
+# ourdot.app: search engines and AI assistants are welcome to read the public website.
+# The family app (/app/) is private and sign-in only.
+User-agent: *
+Allow: /
+Disallow: /app/
+Disallow: /not-found/
+
+# Named so there's no doubt: search and AI assistants may read and cite the public site.
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+User-agent: Google-Extended
+Allow: /
+Disallow: /app/
+Disallow: /not-found/
+
+Sitemap: https://ourdot.app/sitemap.xml

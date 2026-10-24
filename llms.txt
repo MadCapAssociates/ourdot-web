@@ -1,0 +1,70 @@
+# OurDot
+
+> OurDot is a free, private, invite-only family app (web now; iPhone and Android coming soon) from MadCap Associates LLC in Spokane, Washington. Families message, share photos, send voice notes, video call, play family games, take short sourced lessons, plan meals together and keep a private journal. There are no ads, no strangers, no public like counts and no endless scroll. Guardians set school-time and sleep-time locks, and a child's line to their guardians is always open.
+
+Key facts:
+- Price: free. No ads, no in-app purchases, no data selling.
+- Who can join: only people a guardian invites. Kids join through their guardian, using the guardian's email with a +tag.
+- Ages: designed for whole families, from little kids (with guardian controls) to grandparents.
+- Web app: https://ourdot.app/app/ · Start a family: https://ourdot.app/start/ · Help: help@ourdot.app
+- Every design choice links to published research: https://ourdot.app/science/
+
+## Features
+
+- [Messages and calls](https://ourdot.app/features/messages-and-calls/): OurDot opens to your people: a family chat, guardian-made group chats, a guardian line for each child, voice notes, photos and video calls. No strangers, no ads.
+- [Family feed](https://ourdot.app/features/family-feed/): OurDot’s family feed shows only your family’s posts, newest first, then ends with “You’re all caught up.” Hearts are private, there are no public like counts and no algorithm.
+- [Voice notes](https://ourdot.app/features/voice-notes/): Send voice notes in OurDot. When the phone supports it, speech becomes words on the phone itself, so early readers and grandparents can follow along. Recordings are never sent out to be transcribed.
+- [Family games](https://ourdot.app/features/family-games/): OurDot’s family games: a daily word puzzle, four daily logic puzzles, family trivia, Draw & Guess, Family Quest, Build World, Letter Garden, Garden Maze, Lantern Lights and Number Race. No ads, purchases or streaks.
+- [Lessons](https://ourdot.app/features/lessons/): OurDot’s three-minute lessons: Safe & Kind Online for ages 6–9, 10–12 and 13–17, plus Earning Online, the Honest Way. Every lesson shows its sources.
+- [Family Kitchen](https://ourdot.app/features/family-kitchen/): Plan cook-together nights, give every helper a job by age (3–5, 6–8, 9–12, 13+), filter for the 9 major allergens, and share one shopping list. Never about weight, always about time together.
+- [Private journal](https://ourdot.app/features/journal/): OurDot’s journal is private to the writer: not family, not guardians, not OurDot. Write or talk, with optional prompts and a mood pick. If an entry sounds like someone is struggling, the phone shows where help is.
+- [Guardian controls](https://ourdot.app/features/guardian-controls/): OurDot guardian controls: invite-only membership, age ranges, school-time and sleep-time locks enforced on the server, daily game time, and an always-open guardian line.
+
+## The science behind each choice
+
+- [Social media and kids: what we know](https://ourdot.app/science/social-media-and-kids-what-we-know/): A plain-English guide to the debate over social media and youth mental health: what the US Surgeon General, APA, Jonathan Haidt, Candice Odgers, Amy Orben and Andrew Przybylski say, and where they agree.
+- [Screens and sleep](https://ourdot.app/science/sleep-and-screens/): Bedtime device use is consistently linked with shorter, poorer sleep in kids. What a meta-analysis of 125,198 children found, what pediatricians recommend, and how OurDot’s sleep mode works.
+- [Phones at school](https://ourdot.app/science/phones-at-school/): The evidence on school phone bans is mixed. What the 2025 Birmingham SMART Schools study and a 2026 Norwegian study found, what experts argue, and why OurDot pairs school mode with sleep and daily limits.
+- [Like counts](https://ourdot.app/science/like-counts/): Public like counts turn approval into a scoreboard. What brain-imaging research on teens, the APA’s 2024 report and Instagram’s own hidden-likes test found, and why OurDot uses private hearts.
+- [Endless scroll](https://ourdot.app/science/endless-scroll/): Endless feeds and autoplay remove natural stopping points. What the APA’s 2024 report and studies on scrolling and autoplay found, and why OurDot’s feed ends with “You’re all caught up.”
+- [Grandparents and family](https://ourdot.app/science/grandparents-and-family-connection/): Close grandparent relationships are linked with fewer emotional and behavioral problems in teens, and grandparents who stay in touch digitally and in person report higher life satisfaction. What the studies found.
+- [Family meals](https://ourdot.app/science/family-meals/): Family meals are linked with better diets and wellbeing in kids, and kids who help cook like vegetables more. What the research shows, its limits, and why OurDot’s Family Kitchen focuses on time together.
+- [Journaling](https://ourdot.app/science/journaling/): Private expressive writing has small but real benefits for young people. What a meta-analysis of 21 studies with 10- to 18-year-olds found, its limits, and why OurDot’s journal is private to the writer.
+- [Pausing before posting](https://ourdot.app/science/pause-before-posting/): A randomized experiment found a simple reconsider prompt cut offensive posts by about 6%, with effects that carried forward. What the research shows about pausing before posting, and its limits.
+- [Strangers and known adults](https://ourdot.app/science/online-strangers/): About 1 in 6 young adults experienced online sexual abuse before 18, and most offenders were people they knew offline. What the 2022 national study and Thorn’s research found, and how OurDot’s rules respond.
+- [Playing together](https://ourdot.app/science/playing-together/): Playing video games with a parent is linked with stronger family connection for girls, and young kids learn more from screens when an adult joins in. What the research found and its limits.
+- [Teaching online safety](https://ourdot.app/science/digital-literacy/): Scare tactics and simple warnings don’t work well. Skills-based, multi-session programs that involve families show more promise. What research on youth internet-safety education found.
+- [Kids’ data privacy](https://ourdot.app/science/kids-data-privacy/): What the 2025 COPPA amendments require (compliance by April 22, 2026), what the UK Age Appropriate Design Code asks of apps, and how OurDot minimizes children’s data.
+
+## Who it is for
+
+- [Guardians and parents](https://ourdot.app/for/guardians/): For parents and guardians: give kids a real social life with family, with invite-only membership, school and sleep locks, game time and an always-open guardian line. Free, no ads.
+- [Grandparents](https://ourdot.app/for/grandparents/): OurDot helps grandparents stay close to grandkids near or far: photos, voice notes with words on screen, video calls, family games and bigger, simpler screens. Invite-only and free.
+- [Kids and teens](https://ourdot.app/for/kids-and-teens/): What OurDot is like for kids and teens: share with family, play daily games, take short lessons, keep a private journal, and always reach your guardians. More privacy as you grow.
+- [Co-parents and two homes](https://ourdot.app/for/two-household-families/): OurDot works for co-parents and blended families: two co-guardians with equal controls, group chats for each side of the family, and a guardian line that reaches both guardians.
+- [Aunts, uncles and family friends](https://ourdot.app/for/trusted-adults/): What trusted adults can do in OurDot: see family posts, join the family chat and groups, send voice notes, video call and play games, with the same open rules for every adult.
+
+## Comparisons
+
+- [OurDot vs Messenger Kids](https://ourdot.app/compare/messenger-kids/): How OurDot and Meta’s Messenger Kids compare on price, ads, who can contact a child, guardian controls and data, with what each does well. Facts checked October 2026.
+- [OurDot vs Instagram Teen Accounts](https://ourdot.app/compare/instagram-teen-accounts/): How OurDot compares with Instagram Teen Accounts on age, ads, privacy defaults, who can message teens, sleep mode and parent supervision. Facts checked October 2026.
+- [OurDot vs family group texts](https://ourdot.app/compare/group-texts/): How a private family app compares with family group texts on iMessage and WhatsApp: who can contact kids, parental approval, ads, and what each does well. Facts checked October 2026.
+- [OurDot vs Marco Polo](https://ourdot.app/compare/marco-polo/): How OurDot compares with Marco Polo, the video-message app many grandparents love: price, ads, age, guardian controls and features. Facts checked October 2026.
+- [OurDot vs monitoring apps](https://ourdot.app/compare/monitoring-apps/): Monitoring apps watch the apps kids already use; OurDot builds a private family space. How they compare on price, approach and privacy, and why many families might use both. Facts checked October 2026.
+
+## Guides for families
+
+- [What age for social media?](https://ourdot.app/guides/what-age-for-social-media/): What age kids can legally use social media, what pediatricians recommend, which US state laws are in force as of October 2026, and what Australia, the UK and the EU are doing.
+- [When to get a first phone](https://ourdot.app/guides/first-phone/): There’s no single right age for a first phone. What the AAP and Common Sense Media advise, what the Sapien Labs, Stanford and CHOP studies found, and a step-by-step approach families use.
+- [Family media plan](https://ourdot.app/guides/family-media-plan/): Pediatricians dropped fixed hour limits for older kids in 2026. How to make a family media plan that works: the AAP’s guidance, what research says about talking vs restricting, and modeling.
+- [Grandparents far away](https://ourdot.app/guides/grandparents-long-distance/): Video calls with family are the exception to “no screens” for babies and toddlers. Research-backed tips for grandparents far away: video call ideas, voice notes, games and routines.
+- [Talking about strangers and sextortion](https://ourdot.app/guides/talking-about-online-strangers/): What sextortion is, how often it happens (NCMEC 2025 data), warning signs of grooming, what to do if it happens, free tools like Take It Down, and words to use by age.
+- [Safe social app checklist](https://ourdot.app/guides/safe-social-app-checklist/): A checklist for judging any kids’ social app, built from the AAP 2026 policy, the APA, the UK Children’s Code and EU guidelines: private defaults, no stranger contact, no ads, no nudges, easy reporting.
+- [Posting photos of kids](https://ourdot.app/guides/posting-photos-of-kids/): Posting family photos isn’t inherently dangerous, but nothing online is fully private. How to share safely: location data, audience, consent as kids grow, and what the evidence does and doesn’t show.
+
+## Company
+
+- [About OurDot](https://ourdot.app/about/): who makes OurDot and why.
+- [Safety](https://ourdot.app/safety/): how OurDot protects kids and families.
+- [Privacy policy](https://ourdot.app/privacy/): what OurDot keeps and why.
+- [FAQ](https://ourdot.app/faq/): common questions.
