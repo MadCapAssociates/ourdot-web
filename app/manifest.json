@@ -1,7 +1,7 @@
 {
   "name": "OurDot",
   "short_name": "OurDot",
-  "description": "Social media, done safe. One private place for your whole family.",
+  "description": "Social media, without the strangers. No ads, no endless scroll, just your friends and family.",
   "start_url": "/app/",
   "scope": "/app/",
   "display": "standalone",
