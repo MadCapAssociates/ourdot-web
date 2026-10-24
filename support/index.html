@@ -1,42 +1,85 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>OurDot</title>
-    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
-    <style id="expo-reset">
-      /* These styles make the body full-height */
-      html,
-      body {
-        height: 100%;
-      }
-      /* These styles disable body scrolling if you are using <ScrollView> */
-      body {
-        overflow: hidden;
-      }
-      /* These styles make the root element full-height */
-      #root {
-        display: flex;
-        height: 100%;
-        flex: 1;
-      }
-    </style>
-  <link rel="icon" href="/ourdot-web/favicon.ico"/><link rel="apple-touch-icon" href="/ourdot-web/apple-touch-icon.png"/><link rel="manifest" href="/ourdot-web/manifest.json"/><meta name="apple-mobile-web-app-title" content="OurDot"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="default"/><meta name="theme-color" content="#FBF8F3"/><meta name="description" content="Social media, done safe. One private place for your whole family."/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/[id]-013eed469f5666a276fca66026678cc3.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/[id]-ac23f380c55dbae7099a57e7d7fe193b.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/_layout-0703a3412fb927ebbfc3ec23466a7517.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/_layout-8008b2a5e228f731f7d4bcf168b99e72.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/build-2e59c6ea27db245030f0a1462ce2a97c.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/draw-0b51f4a413c1a493913f151aae7c00b4.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/family-273da46d4b430d44cb0229aa45044442.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/feedback-369c7588c0cc107844efdf394d1a94c2.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/index-3b4ccb6197615c23e7471f4168b373d5.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/index-5c61ff35231ed0148896eb2c0873e533.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/index-e86a9dc7bab30dbf205456e55f02e08a.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/journal-d6e38a7b454748b067b6db8b79dac4f9.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/lantern-02ee96e921659f50eb36b36628c84be4.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/learn-067df364a26e9e6d92dfa4d8695a97df.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/lesson-bc983df5775783e10fead9b160bf66df.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/list-4305572f3f2f2857621335ce401f1832.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/logic-c73671adeec084f395524877e346abd9.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/maze-47ff31719bda953512578b3a03f64e7a.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/messages-97c816e776aaea7807a8277cea5390d8.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/new-7806cd3176539810fa8bef4dfc49e8e0.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/play-6923f3877ff3c84371ef3eaa4bbb8f66.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/privacy-bee5bdba63db99f6ef6df774173ef6e8.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/quest-129709939cd1dc7d7bf6df527432c793.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/race-752f2fb09a716273712ae8352631abae.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/recipe-941e98399e3180fe6027e093d47ff117.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/review-c0ad8eba79f6a863373a565a205e2cd3.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/setup-3e8c3ad854ce205288abdeb80df52c46.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/sign-in-e84211507d8bd5bc53c0d3d8f98b2ca7.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/support-32aceff8539086a29cfac40feffca2cf.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/tiles-1c402e0499fae3c33712e374456d1f05.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/trivia-42175497bc71e418b0d3dfe7270583d2.js"/><link rel="preload" as="script" href="/ourdot-web/_expo/static/js/web/word-77d6c9b682d9dbe35775e420f87dccbb.js"/><link rel="preload" as="font" type="font/ttf" crossorigin href="/ourdot-web/assets/node_modules/@expo-google-fonts/bricolage-grotesque/600SemiBold/BricolageGrotesque_600SemiBold.e5b5fc505484ff3ca24da73cba67c660.ttf"/><link rel="preload" as="font" type="font/ttf" crossorigin href="/ourdot-web/assets/node_modules/@expo-google-fonts/bricolage-grotesque/800ExtraBold/BricolageGrotesque_800ExtraBold.5bfb4fa1f8907c768231d97bc27e8df9.ttf"/><link rel="preload" as="font" type="font/ttf" crossorigin href="/ourdot-web/assets/node_modules/@expo-google-fonts/dm-sans/400Regular/DMSans_400Regular.74f9bb7405caec741a24db735b2c5733.ttf"/><link rel="preload" as="font" type="font/ttf" crossorigin href="/ourdot-web/assets/node_modules/@expo-google-fonts/dm-sans/500Medium/DMSans_500Medium.7da0c1626a365ce0164d2ae4ebb0573b.ttf"/><link rel="preload" as="font" type="font/ttf" crossorigin href="/ourdot-web/assets/node_modules/@expo-google-fonts/dm-sans/700Bold/DMSans_700Bold.7a6c1a2c6196d4d0e617b57adb997b3b.ttf"/><style id="ourdot-splash-css">
-#ourdot-splash{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:#FBF8F3;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:#16152B}
-#ourdot-splash .logo{width:64px;height:64px;border-radius:18px;background:#6B4EFF;display:flex;align-items:center;justify-content:center}
-#ourdot-splash .dot{width:20px;height:20px;border-radius:10px;background:#FFD24A;animation:od-pulse 1.1s ease-in-out infinite}
-#ourdot-splash h1{font-size:22px;margin:4px 0 0}
-#ourdot-splash p{font-size:15px;color:#55526B;margin:0;text-align:center;padding:0 24px}
-@keyframes od-pulse{0%,100%{transform:scale(.75)}50%{transform:scale(1.15)}}
-</style></head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help · OurDot</title>
+<meta name="description" content="Help with OurDot: joining, signing in, setting up kids, and contacting us.">
+<meta name="theme-color" content="#FBF8F3">
+<link rel="icon" href="/assets/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="OurDot home"><span class="mark" aria-hidden="true"></span>OurDot</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/#science">The science</a>
+      <a href="/privacy/">Privacy</a>
+      <a class="cta" href="/#get">Get OurDot</a>
+    </nav>
+  </div>
+</header>
 
-  <body>
-    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
-    <noscript> You need to enable JavaScript to run this app. </noscript>
-    <!-- The root element for your Expo app. -->
-    <div id="root"></div><div id="ourdot-splash" role="status" aria-live="polite"><div class="logo"><div class="dot"></div></div><h1>Opening OurDot…</h1><p>The first time can take up to 30 seconds on a phone. It’s faster after that.</p></div><script>(function(){var r=document.getElementById('root');function done(){var s=document.getElementById('ourdot-splash');if(s&&r.childElementCount&&r.innerText.trim()){s.remove();o.disconnect()}}var o=new MutationObserver(done);o.observe(r,{childList:true,subtree:true});})();</script>
-  <script src="/ourdot-web/_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js" defer></script><script src="/ourdot-web/_expo/static/js/web/__common-b758f4d1fbb1bf18ee2ba2f88b56b234.js" defer></script><script src="/ourdot-web/_expo/static/js/web/entry-2d45d2254475069938dc3a889531c3fa.js" defer></script>
+<main class="doc">
+  <div class="wrap narrow">
+    <span class="eyebrow">Help</span>
+    <h1>How can we help?</h1>
+    <p class="updated">Email <a href="mailto:help@ourdot.app">help@ourdot.app</a> any time. We reply within 2 business days, and a real person reads every note.</p>
+
+    <div class="faq">
+      <details open>
+        <summary>How do I join OurDot?</summary>
+        <p>OurDot is invite-only. A guardian in your family sends you an invite link or code. Open the link, sign in with the code we email you, and you're in.</p>
+      </details>
+      <details>
+        <summary>I didn't get my sign-in code.</summary>
+        <p>The 6-digit code is in the email's subject line, from OurDot. Check spam or promotions and wait a minute. Still nothing? Go back and tap "Email me a sign-in code" again. Kids' codes go to their guardian's inbox.</p>
+      </details>
+      <details>
+        <summary>How do I set up my child?</summary>
+        <p>In the Family tab, create a kid invite. Use your own email with a + and their name, like you+leo@gmail.com. It lands in your inbox, but OurDot treats it as your child's account. This works with Gmail, Yahoo, Proton and Fastmail; iCloud doesn't support it, so use a Gmail address you check.</p>
+      </details>
+      <details>
+        <summary>Something isn't working, or I have an idea.</summary>
+        <p>Tap the 💬 tab on the right edge of any screen. Pick "I love this," "I don't like this," "Something's broken" or "I have an idea," and add words or a voice note if you like. You'll see what we decide in "My feedback."</p>
+      </details>
+      <details>
+        <summary>How do I report a post or block someone?</summary>
+        <p>On a post, tap the ••• button. On a message, press and hold it. Then choose Report or Block. Urgent reports are hidden right away while we review them.</p>
+      </details>
+      <details>
+        <summary>Why can't my child use the app right now?</summary>
+        <p>Their guardian may have school mode, sleep mode or a daily game limit on. Messages to and from guardians always work, even then.</p>
+      </details>
+      <details>
+        <summary>How do I delete my account?</summary>
+        <p>Go to the Family tab and tap "Delete my account." Your posts, photos, voice messages, messages and journal are deleted. Guardians can delete a child's account from the same tab.</p>
+      </details>
+      <details>
+        <summary>Is my information private?</summary>
+        <p>Yes. Only your invited family sees what you share. No ads, no selling data, no outside tracking. Read the full <a href="/privacy/">privacy policy</a>.</p>
+      </details>
+    </div>
+
+    <h2>Still need help?</h2>
+    <p>Email <a href="mailto:help@ourdot.app">help@ourdot.app</a> and tell us what happened and which device you're on. For anything else, write to <a href="mailto:info@ourdot.app">info@ourdot.app</a>.</p>
+    <p style="color: var(--muted); font-size: 15px;">If someone is in danger, call 911. If you or someone you know is struggling, call or text 988 (free, any time).</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 MadCap Associates LLC · OurDot</span>
+    <nav aria-label="Footer">
+      <a href="/">Home</a>
+      <a href="/privacy/">Privacy</a>
+      <a href="/app/">Open OurDot</a>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>
