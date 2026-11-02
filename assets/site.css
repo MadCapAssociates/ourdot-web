@@ -1,15 +1,30 @@
-/* ourdot.app — same look as the app: warm paper, ink, violet, one yellow dot. */
+/* ourdot.app — same look as the app: a bright glowing background, ink, violet, one yellow dot. */
 :root {
-  --ink: #16152B; --paper: #FBF8F3; --white: #FFFFFF; --violet: #6B4EFF; --violet-deep: #3A24B8; --violet-soft: #EEE9FF;
+  --ink: #16152B; --paper: #F6F2FF; --white: #FFFFFF; --violet: #6B4EFF; --violet-deep: #3A24B8; --violet-soft: #EEE9FF;
   --violet-text: #4A2FC9; --yellow: #FFD24A; --yellow-soft: #FFF4D1; --mint: #16C2A3; --mint-soft: #DDF7F1; --muted: #55526B;
-  --faint: #6F6C85; --line: #E6E1D8; --chip: #F4F1EC; --amber: #FF9A3D;
+  --faint: #6F6C85; --line: #E4DEF7; --chip: #EFEBFF; --amber: #FF9A3D;
   --shadow: 0 1px 2px rgba(22,21,43,.05), 0 8px 24px rgba(22,21,43,.06);
   --display: 'Bricolage Grotesque', system-ui, sans-serif; --body: 'DM Sans', system-ui, sans-serif;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; transition: none !important; } }
-body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+body { margin: 0; background: var(--paper); position: relative; isolation: isolate; color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+/* Glowing background, matching the app: neighbouring colours only (violet-pink up top, mint-sky down low) with a white
+   glow in the middle. It glides into place once when a page opens and settles in under five seconds (WCAG 2.2.2),
+   because constant motion in the corner of the eye pulls attention from reading. Still for Reduce Motion. */
+body::before { content: ''; position: fixed; inset: -12%; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(ellipse 60% 45% at 50% 50%, rgba(255,255,255,.85), rgba(255,255,255,0) 70%),
+    radial-gradient(ellipse 70% 45% at 0% 4%, rgba(141,120,255,.7), rgba(141,120,255,0) 70%),
+    radial-gradient(ellipse 60% 40% at 100% 8%, rgba(255,107,139,.55), rgba(255,107,139,0) 70%),
+    radial-gradient(ellipse 65% 42% at 0% 95%, rgba(46,211,183,.55), rgba(46,211,183,0) 70%),
+    radial-gradient(ellipse 60% 40% at 100% 90%, rgba(20,160,200,.45), rgba(20,160,200,0) 70%),
+    radial-gradient(ellipse 45% 22% at 55% 104%, rgba(255,210,74,.55), rgba(255,210,74,0) 70%);
+  animation: glow-settle 4.5s cubic-bezier(.22,.61,.36,1) both; }
+@keyframes glow-settle { from { transform: translate(-3%, -2%) scale(1.06) rotate(-2deg); opacity: .6; } to { transform: none; opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { body::before { animation: none; } }
 a { color: var(--violet-text); text-underline-offset: 3px; }
 a:hover { color: var(--violet-deep); }
 :focus-visible { outline: 3px solid var(--violet); outline-offset: 3px; border-radius: 6px; }
@@ -18,7 +33,7 @@ img, svg { max-width: 100%; }
 .narrow { max-width: 760px; }
 
 /* Header */
-.top { position: sticky; top: 0; z-index: 20; background: rgba(251,248,243,.88); backdrop-filter: saturate(140%) blur(12px); -webkit-backdrop-filter: saturate(140%) blur(12px); border-bottom: 1px solid rgba(22,21,43,.06); }
+.top { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.72); backdrop-filter: saturate(140%) blur(12px); -webkit-backdrop-filter: saturate(140%) blur(12px); border-bottom: 1px solid rgba(22,21,43,.06); }
 .top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 68px; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-family: var(--display); font-weight: 800; font-size: 24px; letter-spacing: -.6px; }
 .brand:hover { color: var(--ink); }
@@ -222,7 +237,7 @@ footer a:hover { color: var(--ink); }
 .box ul { margin: 8px 0 0; padding-left: 20px; }
 .box.soft { background: var(--violet-soft); box-shadow: none; }
 .pg h2.sec { font-size: clamp(28px, 3.6vw, 38px); margin: 56px 0 18px; }
-.related { padding: 56px 0; background: #F4F1EC; }
+.related { padding: 56px 0; background: rgba(255,255,255,.55); }
 .related h2 { font-size: 30px; margin-bottom: 18px; }
 .faq-block, .sources-block { margin-top: 48px; }
 .faq-block h2, .sources-block h2 { font-size: 28px; margin-bottom: 16px; }
