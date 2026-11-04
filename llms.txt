@@ -1,11 +1,11 @@
 # OurDot
 
-> OurDot is a free, private, invite-only family app (web now; iPhone and Android coming soon) from MadCap Associates LLC in Spokane, Washington. Families message, share photos, send voice notes, video call, play family games, take short sourced lessons, plan meals together and keep a private journal. There are no ads, no strangers, no public like counts and no endless scroll. Guardians set school-time and sleep-time locks, and a child's line to their guardians is always open.
+> OurDot is free, private, invite-only social media for friends and family (web now; iPhone and Android coming soon) from MadCap Associates LLC in Spokane, Washington. People message, share photos, send voice notes, video call, play family games, take short sourced lessons, plan meals together and keep a private journal. There are no ads, no strangers, no public like counts and no endless scroll. Guardians set school-time and sleep-time locks, and a child's line to their guardians is always open.
 
 Key facts:
 - Price: free. No ads, no in-app purchases, no data selling.
-- Who can join: only people a guardian invites. Kids join through their guardian, using the guardian's email with a +tag.
-- Ages: designed for whole families, from little kids (with guardian controls) to grandparents.
+- Who can join: anyone 18 or older can start a space and invite the people they choose. Anyone under 18 joins only through a parent or guardian's invite, using the guardian's email with a +tag.
+- Who it's for: friends, couples and young adults, grown-ups with or without kids, and whole families from little kids (with guardian controls) to grandparents.
 - Web app: https://ourdot.app/app/ · Start a family: https://ourdot.app/start/ · Help: help@ourdot.app
 - Every design choice links to published research: https://ourdot.app/science/
 
@@ -38,6 +38,7 @@ Key facts:
 
 ## Who it is for
 
+- [Friends and young adults](https://ourdot.app/for/friends-and-young-adults/): OurDot for friends, couples, roommates and young adults 18+: a private feed that ends, group chats, voice notes, video calls and games. No ads, no like counts, no endless scroll. Free.
 - [Guardians and parents](https://ourdot.app/for/guardians/): For parents and guardians: give kids a real social life with family, with invite-only membership, school and sleep locks, game time and an always-open guardian line. Free, no ads.
 - [Grandparents](https://ourdot.app/for/grandparents/): OurDot helps grandparents stay close to grandkids near or far: photos, voice notes with words on screen, video calls, family games and bigger, simpler screens. Invite-only and free.
 - [Kids and teens](https://ourdot.app/for/kids-and-teens/): What OurDot is like for kids and teens: share with family, play daily games, take short lessons, keep a private journal, and always reach your guardians. More privacy as you grow.
