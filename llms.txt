@@ -1,6 +1,6 @@
 # OurDot
 
-> OurDot is free, private, invite-only social media for friends and family (web now; iPhone and Android coming soon) from MadCap Associates LLC in Spokane, Washington. People message, share photos, send voice notes, video call, play family games, take short sourced lessons, plan meals together and keep a private journal. There are no ads, no strangers, no public like counts and no endless scroll. Guardians set school-time and sleep-time locks, and a child's line to their guardians is always open.
+> OurDot is free, private, invite-only social media for friends and family (web and iPhone now; Android coming soon) from MadCap Associates LLC in Spokane, Washington. People message, share photos, send voice notes, video call, play family games, take short sourced lessons, plan meals together and keep a private journal. There are no ads, no strangers, no public like counts and no endless scroll. Guardians set school-time and sleep-time locks, and a child's line to their guardians is always open.
 
 Key facts:
 - Price: free. No ads, no in-app purchases, no data selling.
