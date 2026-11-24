@@ -1,7 +1,7 @@
 {
   "name": "OurDot",
   "short_name": "OurDot",
-  "description": "Social media, without the strangers. No ads, no endless scroll, just your friends and family.",
+  "description": "What social media should have been. No ads, no endless scroll, just your friends and family.",
   "start_url": "/app/",
   "scope": "/app/",
   "display": "standalone",

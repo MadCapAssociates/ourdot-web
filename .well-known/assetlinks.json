@@ -1,0 +1,14 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.madcapassociates.ourdot",
+      "sha256_cert_fingerprints": [
+        "CA:22:90:33:06:78:D3:00:19:E7:F8:7A:BB:8A:F5:1E:7F:31:8E:E5:36:D1:5C:F4:EF:CC:19:A1:44:25:19:BC",
+        "43:86:B3:45:68:E7:76:3A:44:7C:68:E0:3B:37:BB:4C:C7:03:78:4E:81:51:1A:AD:48:0F:DE:05:CE:D0:02:9C",
+        "48:9A:68:4E:C7:3A:0A:B4:A1:40:E9:38:41:70:46:EC:AE:6D:87:00:95:7A:A4:40:9D:22:CF:5D:2D:FC:DC:F6"
+      ]
+    }
+  }
+]

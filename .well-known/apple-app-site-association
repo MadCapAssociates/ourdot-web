@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["785887KGVT.com.madcapassociates.ourdot"],
+        "components": [
+          { "/": "/app", "comment": "The web app's front door" },
+          { "/": "/app/*", "comment": "Invite links (https://ourdot.app/app/?invite=CODE) and every other web app address" }
+        ]
+      }
+    ]
+  }
+}
