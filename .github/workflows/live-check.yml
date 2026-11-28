@@ -24,11 +24,12 @@ jobs:
             home=$(curl -fsSL "https://ourdot.app/?nocache=$RANDOM" || true)
             echo "$home" | grep -q "OurDot" || { echo "Website home page didn't load."; fail=1; }
             app=$(curl -fsSL "https://ourdot.app/app/?nocache=$RANDOM" || true)
-            entry=$(echo "$app" | grep -oE '/app/_expo/static/js/web/entry-[a-f0-9]+\.js' | head -1)
-            if [ -z "$entry" ]; then echo "Web app page didn't load its main script."; fail=1
+            scripts=$(echo "$app" | grep -oE '/app/_expo/static/js/web/[A-Za-z0-9_.-]+\.js' | sort -u)
+            if [ -z "$scripts" ]; then echo "Web app page didn't load its scripts."; fail=1
             else
-              curl -fsSL "https://ourdot.app$entry" | grep -q 'supabase\.co' \
-                || { echo "Web app was built without the server (Supabase) address: people would see 'Almost there'."; fail=1; }
+              found=0
+              for s in $scripts; do curl -fsSL "https://ourdot.app$s" | grep -q 'smxtwuogtjeqnxjmghbr\.supabase\.co' && { found=1; break; }; done
+              [ $found -eq 1 ] || { echo "Web app was built without the server (Supabase) address: people would see 'Almost there'."; fail=1; }
             fi
             [ $fail -eq 0 ] && { echo "ourdot.app and the web app look right."; exit 0; }
             echo "Attempt $attempt failed; waiting 60s in case the publish is still finishing."; sleep 60
