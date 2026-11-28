@@ -1,0 +1,36 @@
+# Checks the live ourdot.app after every publish and every morning.
+# Fails (and GitHub emails the owner) if the website or the web app is broken.
+# Added Nov 28, 2026 after the Nov 24 publish shipped a web app with no Supabase address ("Almost there" for 4 days).
+name: Live site check
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 12 * * *'   # every day, 6:17 am Central
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for GitHub Pages to finish publishing
+        if: github.event_name == 'push'
+        run: sleep 150
+      - name: Check ourdot.app and the web app
+        run: |
+          set -u
+          fail=0
+          for attempt in 1 2 3 4 5; do
+            fail=0
+            home=$(curl -fsSL "https://ourdot.app/?nocache=$RANDOM" || true)
+            echo "$home" | grep -q "OurDot" || { echo "Website home page didn't load."; fail=1; }
+            app=$(curl -fsSL "https://ourdot.app/app/?nocache=$RANDOM" || true)
+            entry=$(echo "$app" | grep -oE '/app/_expo/static/js/web/entry-[a-f0-9]+\.js' | head -1)
+            if [ -z "$entry" ]; then echo "Web app page didn't load its main script."; fail=1
+            else
+              curl -fsSL "https://ourdot.app$entry" | grep -q 'supabase\.co' \
+                || { echo "Web app was built without the server (Supabase) address: people would see 'Almost there'."; fail=1; }
+            fi
+            [ $fail -eq 0 ] && { echo "ourdot.app and the web app look right."; exit 0; }
+            echo "Attempt $attempt failed; waiting 60s in case the publish is still finishing."; sleep 60
+          done
+          exit 1
